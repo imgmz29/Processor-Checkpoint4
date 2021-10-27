@@ -14,7 +14,7 @@ We desinged an 8-divided-frequency system, extend the original period to 8 times
 #### div8
 It first divides frequency by 2, then use the ouput as the input of divider-by-4 whose output is the input of divider-by-8.
 #### div_1_ctrl
-There is a mode-8 counter in it, counting every small period. If we want to do a specific operation on the posedge of ONE period, we set it to 1, otherwise, 0.
+It contains a mode-8 counter, counting every small period. If we want to do a specific operation on the posedge of ONE period, we set it to 1, otherwise, 0.
 ### Processor
 Added the operation of lattencies to the provided file.
 ### Skeleton
